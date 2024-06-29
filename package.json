@@ -1,0 +1,16 @@
+{
+  "name": "100-days-of-tailwind",
+  "version": "1.0.0",
+  "description": "This project is for tracking my progress towards styling web pages and interfaces with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwind -i src/tailwind/input.css -o static/css/app.css --watch"
+  },
+  "keywords": [],
+  "author": "Victor Kimuyu",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.4.4"
+  }
+}
