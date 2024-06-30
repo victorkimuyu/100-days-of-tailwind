@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       'fontFamily': {
-        'sans': ['Space Grotesk', 'sans-serif'],
+        sans: ['Lexend Deca', 'sans-serif'],
       }
     },
   },
