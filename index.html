@@ -1,38 +1,38 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet" />
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+          content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='static/css/app.css'>
+    <title>Document</title>
 </head>
 <body>
-<div class="h-screen">
-    <div class="flex justify-center">
-        <div class="flex flex-col items-center gap-1 border border-amber-950 border-opacity-10 bg-red-50 p-4 text-center sm:flex-row sm:items-start sm:gap-6 sm:text-left">
-            <div>
-                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" class="w-20 sm:w-10" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" class="stroke-red-600"></path>
-                </svg>
+<div class='flex h-screen justify-center items-center'>
+    <div class='flex flex-col w-[600px] p-8 border border-neutral-300'>
+        <div class='flex justify-between'>
+            <div>x</div>
+            <div>Drafts</div>
+        </div>
+        <div class='flex'>
+            <div>x</div>
+            <textarea class='resize-none h-24 w-full rounded' placeholder='What is happening?!'></textarea>
+        </div>
+        <div class='flex'>
+            <div>x</div>
+            <div>Anyone can reply</div>
+        </div>
+        <div class='flex justify-between'>
+            <div class='flex'>
+                <div>x</div>
+                <div>x</div>
+                <div>x</div>
+                <div>x</div>
+                <div>x</div>
+                <div>x</div>
             </div>
-            <div class="flex flex-col">
-                <div class="font-medium text-red-900 mb-2">Account storage is full</div>
-                <div class="text-sm font-[300] leading-5 mb-6">You won't be able to send and receive emails soon, and you already can't save to Drive and back up to Google Photos. Clean up space or get more storage — 76% off for 1 month.</div>
-                <div class="flex w-full flex-col gap-4 text-sm font-medium sm:w-auto sm:flex-row">
-                    <button class="rounded bg-red-600 px-8 py-2 text-white" type="button">Get offer</button>
-                    <button class="rounded border border-amber-900 border-opacity-20 px-8 py-2 text-neutral-800" type="button">Clean up space</button>
-                    <a href="" class="block text-neutral-600 sm:hidden">Learn more</a>
-                </div>
-            </div>
-            <svg class="relative right-0 top-0 hidden sm:block" width="12" height="18" viewBox="0 0 5 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2.66666 11C3.77123 11 4.66666 10.1046 4.66666 9C4.66666 7.89543 3.77123 7 2.66666 7C1.56209 7 0.666664 7.89543 0.666664 9C0.666664 10.1046 1.56209 11 2.66666 11Z" fill="#686868" />
-                <path d="M2.66666 4C3.77123 4 4.66666 3.10457 4.66666 2C4.66666 0.89543 3.77123 0 2.66666 0C1.56209 0 0.666664 0.89543 0.666664 2C0.666664 3.10457 1.56209 4 2.66666 4Z" fill="#686868" />
-                <path d="M2.66666 18C3.77123 18 4.66666 17.1046 4.66666 16C4.66666 14.8954 3.77123 14 2.66666 14C1.56209 14 0.666664 14.8954 0.666664 16C0.666664 17.1046 1.56209 18 2.66666 18Z" fill="#686868" />
-            </svg>
+            <button class='justify-self-end'>Post</button>
         </div>
     </div>
 </div>
