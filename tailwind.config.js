@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       'fontFamily': {
-        sans: ['Lexend Deca', 'sans-serif'],
+        sans: ['Segoe UI', 'sans-serif'],
       }
     },
   },
