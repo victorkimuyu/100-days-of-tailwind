@@ -1,0 +1,6 @@
+@import "tailwindcss" source("../..");
+
+@theme {
+    --font-sans: 'Source Sans3', sans-serif;
+    --font-title: 'Roboto Slab', 'sans-serif';
+}
